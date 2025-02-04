@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أعمالي الشعرية - فجرة</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>مرحبًا بكم في عالمي الشعري ✨</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#poems">أعمالي الشعرية</a></li>
+                <li><a href="#about">عنّي</a></li>
+                <li><a href="#contact">اتصل بي</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>مرحبًا بكِ في موقعي</h2>
+        <p>أنا فجرة، وهذا فضاءٌ أعرض فيه أعمالي الشعرية. أتمنى أن تجدوا فيها صدى مشاعركم. 💕</p>
+    </section>
+
+    <section id="poems">
+        <h2>أعمالي الشعرية</h2>
+        <article>
+            <h3>قصيدة: بقايا الشتاء في أحضانك</h3>
+            <p>هنا مقطع صغير من القصيدة...</p>
+            <a href="#">قراءة المزيد</a>
+        </article>
+        <article>
+            <h3>قصيدة: كفاك هروبًا مني</h3>
+            <p>وهنا مقطع آخر...</p>
+            <a href="#">قراءة المزيد</a>
+        </article>
+    </section>
+
+    <section id="about">
+        <h2>عنّي</h2>
+        <p>أنا فجرة، كاتبة وشاعرة تهوى الكلمات وترسم الحروف بمشاعرها...</p>
+    </section>
+
+    <section id="contact">
+        <h2>اتصل بي</h2>
+        <form>
+            <input type="text" placeholder="اسمك" required>
+            <input type="email" placeholder="بريدك الإلكتروني" required>
+            <textarea placeholder="رسالتك" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>حقوق النشر © 2025 - فجرة</p>
+    </footer>
+</body>
+</html>
